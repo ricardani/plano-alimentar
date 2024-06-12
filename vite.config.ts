@@ -17,6 +17,8 @@ const pwaOptions: Partial<VitePWAOptions> = {
     short_name: 'Plano Alimentar',
     description: 'Plano alimentar para a semana',
     theme_color: '#000000',
+    lang: 'pt-pt',
+    start_url: '/plano-alimentar/',
     icons: [
       {
         "src": "/plano-alimentar/android-chrome-192x192.png",
