@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react'
 import replace from '@rollup/plugin-replace'
 
 const pwaOptions: Partial<VitePWAOptions> = {
+  base: '/plano-alimentar/',
   registerType: 'autoUpdate',
   devOptions: {
     enabled: process.env.SW_DEV === 'true',
