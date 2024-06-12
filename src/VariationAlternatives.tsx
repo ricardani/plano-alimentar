@@ -11,7 +11,11 @@ export const VariationAlternatives = ({ alternatives }: { alternatives?: string[
     return (
         <>
             {alternatives.map((alternative, index) => (
-                <span key={index} className="border border-light-subtle border-2 m-1 px-1 rounded">{alternative}</span>))
+                <>
+                {index > 0 && <span className="badge bg-light text-dark mx-1">ou</span>}
+                <span key={index} className="border border-light-subtle border-2 m-1 px-1 rounded">{alternative}</span>
+                </>
+                ))
             }
         </>
     )

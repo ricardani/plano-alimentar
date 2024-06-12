@@ -19,7 +19,7 @@ export const Section = ({ id, title, variations, time }: SectionProps) => {
             <div id={id} className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body row">
                     {variations.map((variation, index) => (
-                        <Variation key={index} variation={variation} />   
+                        <Variation key={index} variation={variation} index={index} />   
                     ))}
                 </div>
             </div>
