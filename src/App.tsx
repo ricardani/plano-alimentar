@@ -8,7 +8,11 @@ function App() {
     <>
       <nav className="navbar navbar-expand-lg sticky-top bg-body-tertiary">
         <div className="container-fluid">
-          <div className="navbar-brand">Plano Alimentar - {NUTRITIONALPLAN.name}</div>
+
+          <div className="navbar-brand d-flex align-items-center">
+            <img src="./diet.svg" alt="Bootstrap" width="30" height="24" />
+            Plano Alimentar - {NUTRITIONALPLAN.name}
+          </div>
         </div>
       </nav>
       <main className='container-fluid h-100 pt-1 overflow-y-auto'>

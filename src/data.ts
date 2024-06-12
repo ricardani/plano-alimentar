@@ -81,7 +81,7 @@ export const NUTRITIONALPLAN: NutritionalPlan = {
                     "items": [
                         {
                             "alternatives": ["1 prato de Sopa"],
-                            description: "máximo uma batata, de preferência sem"
+                            "description": "máximo uma batata, de preferência sem"
                         },
                         {
                             "alternatives": ["125g de arroz", "125g de massa", "125g de batata", "125g de feijão", "125g de grão"]
@@ -166,7 +166,8 @@ export const NUTRITIONALPLAN: NutritionalPlan = {
                     "title": "",
                     "items": [
                         {
-                            "alternatives": ["1 prato de Sopa (máximo uma batata, de preferência sem)"]
+                           "alternatives": ["1 prato de Sopa"],
+                            "description": "máximo uma batata, de preferência sem"
                         },
                         {
                             "alternatives": ["125g de arroz", "125g de massa", "125g de batata", "125g de feijão", "125g de grão"]

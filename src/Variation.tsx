@@ -18,8 +18,8 @@ export const Variation = ({ variation }: VariationProps) => {
                     <h6 className="card-title">{variation.title}</h6>
                 </div>}
                 <ul className="list-group list-group-flush">
-                    {variation.items.map(item => (
-                        <li className="list-group-item d-flex align-items-center flex-wrap">
+                    {variation.items.map((item, index) => (
+                        <li key={index} className="list-group-item d-flex align-items-center flex-wrap">
                             <VariationAlternatives alternatives={item.alternatives} />
                             <VariationDescription description={item.description} />
                             <VariationRecipe recipe={item.recipe} />
