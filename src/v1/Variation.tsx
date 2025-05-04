@@ -1,4 +1,4 @@
-import { PlanVariation } from "./types";
+import { PlanVariation } from "../types";
 import { VariationAlternatives } from "./VariationAlternatives";
 import { VariationDescription } from "./VariationDescription";
 import { VariationRecipe } from "./VariationRecipe";

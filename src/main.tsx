@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
+import App from './v1/App.tsx'
 import 'bootstrap'
 import "bootstrap-icons/font/bootstrap-icons.css";
 import './index.scss'

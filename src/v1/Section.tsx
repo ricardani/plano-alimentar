@@ -1,5 +1,5 @@
 import { Variation } from "./Variation";
-import { PlanVariation } from "./types";
+import { PlanVariation } from "../types";
 
 interface SectionProps {
     id: string;

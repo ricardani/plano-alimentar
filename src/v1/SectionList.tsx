@@ -1,6 +1,6 @@
 import { Section } from "./Section"
-import { NUTRITIONALPLAN } from './data'
-import { PlanSection } from "./types"
+import { NUTRITIONALPLAN } from '../data'
+import { PlanSection } from "../types"
 
 
 export const SectionList = () => {

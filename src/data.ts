@@ -4,7 +4,7 @@ export const NUTRITIONALPLAN: NutritionalPlan = {
     "name": "Ricardo",
     "sections": [
         {
-            "title": "Pequeno Almoço",
+            "title": "Pequeno Almoço (dias com treino)",
             "time": "07:00",
             "variations": [
                 {
@@ -42,7 +42,29 @@ export const NUTRITIONALPLAN: NutritionalPlan = {
             ]
         },
         {
-            "title": "Lanche da Manhã 1 (Pós treino)",
+            "title": "Pequeno Almoço (dias sem treino)",
+            "time": "07:00",
+            "variations": [
+                {
+                    "items": [
+                        {
+                            "alternatives": ["1 fatia de pão integral"]
+                        },
+                        {
+                            "alternatives": ["2 fatias de queijo magro"]
+                        },
+                        {
+                            "alternatives": ["2 fatias de fiambre de perú ou frango"]
+                        },
+                        {
+                            "alternatives": ["1 papa de fruta"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Lanche pós treino",
             "time": "09:30",
             "variations": [
                 {
@@ -58,7 +80,7 @@ export const NUTRITIONALPLAN: NutritionalPlan = {
             ]
         },
         {
-            "title": "Lanche da Manhã 2",
+            "title": "Lanche da Manhã (dias com treino)",
             "time": "11:30",
             "variations": [
                 {
@@ -68,6 +90,25 @@ export const NUTRITIONALPLAN: NutritionalPlan = {
                         },
                         {
                             "alternatives": ["Queijinho babybel light"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Lanche da Manhã (dias sem treino)",
+            "time": "11:30",
+            "variations": [
+                {
+                    "items": [
+                        {
+                            "alternatives": ["3 Bolachas de arroz ou milho", "Pacote de bolachas 0 açúcar", "6 bolachas de água e sal"]
+                        },
+                        {
+                            "alternatives": ["Iogurte proteico", "Pudim proteico"]
+                        },
+                        {
+                            "alternatives": ["1 dose de fruta*"]
                         }
                     ]
                 }

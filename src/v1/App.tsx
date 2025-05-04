@@ -1,6 +1,6 @@
 import './App.scss'
 import { SectionList } from './SectionList'
-import { NUTRITIONALPLAN } from './data'
+import { NUTRITIONALPLAN } from '../data'
 
 function App() {
 
