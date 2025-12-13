@@ -11,23 +11,23 @@ export function MealPlanView() {
   return (
     <div className="min-h-screen bg-gray-50 pb-20">
       {/* Header */}
-      <div className="bg-gradient-to-br from-blue-600 to-blue-700 text-white px-4 pt-6 pb-8 sticky top-0 z-10 shadow-lg">
-        <h1 className="mb-4">O Meu Plano Alimentar</h1>
-        <div className="grid grid-cols-2 gap-2">
-          <div className="bg-white/20 backdrop-blur-sm rounded-lg p-3">
-            <p className="text-blue-100 text-xs mb-1">Energia</p>
-            <p className="text-white">{dailyTotals.energia_kcal} kcal</p>
+      <div className="bg-gradient-to-br from-blue-600 to-blue-700 text-white px-4 pt-6 pb-4 sticky top-0 z-10 shadow-lg">
+        <h1 className="mb-4">Plano Alimentar</h1>
+        <div className="grid grid-cols-2 gap-2 text-sm">
+          <div className="bg-white/20 backdrop-blur-sm rounded-lg px-2 py-1">
+            <p className="text-blue-100 text-xs mb-1 bold">Energia</p>
+            <p className="text-white ">{dailyTotals.energia_kcal} kcal</p>
           </div>
-          <div className="bg-white/20 backdrop-blur-sm rounded-lg p-3">
-            <p className="text-blue-100 text-xs mb-1">Proteína</p>
+          <div className="bg-white/20 backdrop-blur-sm rounded-lg px-2 py-1">
+            <p className="text-blue-100 text-xs mb-1 bold">Proteína</p>
             <p className="text-white">{dailyTotals.proteina_g}g</p>
           </div>
-          <div className="bg-white/20 backdrop-blur-sm rounded-lg p-3">
-            <p className="text-blue-100 text-xs mb-1">Hidratos</p>
+          <div className="bg-white/20 backdrop-blur-sm rounded-lg px-2 py-1">
+            <p className="text-blue-100 text-xs mb-1 bold">Hidratos</p>
             <p className="text-white">{dailyTotals.hidratos_carbono_g}g</p>
           </div>
-          <div className="bg-white/20 backdrop-blur-sm rounded-lg p-3">
-            <p className="text-blue-100 text-xs mb-1">Gordura</p>
+          <div className="bg-white/20 backdrop-blur-sm rounded-lg px-2 py-1">
+            <p className="text-blue-100 text-xs mb-1 bold">Gordura</p>
             <p className="text-white">{dailyTotals.gordura_g}g</p>
           </div>
         </div>

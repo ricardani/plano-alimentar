@@ -72,7 +72,7 @@ export const mealPlanData: Meal[] = [
   },
   {
     id: 'lanche-manha',
-    name: 'Lanche da manhã 1',
+    name: 'Lanche da manhã',
     icon: '☕',
     nutritionalInfo: {
       energia_kcal: 213,
@@ -224,10 +224,9 @@ export const mealPlanData: Meal[] = [
       },
       {
         id: 'ja-sobremesa',
-        name: 'Sobremesa/Bebida',
+        name: 'Sobremesa',
         variations: [
-          '1 peça de fruta (100-150 g)',
-          'Água',
+          '1 peça de fruta (100-150 g)'
         ],
       },
       {
