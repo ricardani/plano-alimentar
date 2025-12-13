@@ -1,9 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './v1/App.tsx'
-import 'bootstrap'
-import "bootstrap-icons/font/bootstrap-icons.css";
-import './index.scss'
+import App from './v2/App.tsx'
+
+import './v2/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

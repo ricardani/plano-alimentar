@@ -1,4 +1,6 @@
 import './App.scss'
+import 'bootstrap'
+import "bootstrap-icons/font/bootstrap-icons.css";
 import { SectionList } from './SectionList'
 import { NUTRITIONALPLAN } from '../data'
 
